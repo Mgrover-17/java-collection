@@ -13,7 +13,7 @@ public class RotateElements {
 
         ArrayList<Integer>rotatedList=new ArrayList<>();
         rotatedList.addAll(list.subList(rotatePosition,listSize)); //from rotate position to end
-        rotatedList.addAll(list.subList(0,rotatePosition));
+        rotatedList.addAll(list.subList(0,rotatePosition)); //added elements before rotated position
         System.out.println(rotatedList);
     }
 }
