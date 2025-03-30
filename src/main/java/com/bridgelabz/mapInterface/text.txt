@@ -1,0 +1,3 @@
+Hello world, hello Java!
+Java is powerful. Java is fun.
+The world of programming welcomes you.
